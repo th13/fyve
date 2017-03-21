@@ -16,27 +16,27 @@ five()  # returns 5
 ```
 
 ## The Law of Fives
-```javascript
+```python
 five.law(); // The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
 ```
 
 ##### Addition
-```javascript
+```python
 five() + five(); // 10
 ```
 
 ##### Multiplication
-```javascript
+```python
 five() * five(); // 25
 ```
 
 ##### Division
-```javascript
-five() / five(); // 1
+```python
+five() // five(); // 1
 ```
 
 ##### Different sorts of 5
-```javascript
+```python
 five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
@@ -49,13 +49,13 @@ five.smooth() // S
 ```
 
 ##### Cryptography
-```javascript
+```python
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 five.golden() // 1.618033988749895
 ```
 
 ##### 5 goes multilingual
-```javascript
+```python
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
@@ -119,7 +119,7 @@ five.welsh() // pump
 ```
 
 ##### Different radices
-```javascript
+```python
 five.binary(); // 101
 five.octal(); // 5
 five.hex(); // 5
@@ -128,19 +128,19 @@ five.base(3); // 12
 ```
 
 ##### Assertion
-```javascript
+```python
 five.isFive(10); // false
 ```
 
 ##### Filter, Map and Reduce
-```javascript
+```python
 five.filter([5, true, 5]); // [5, 5]
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
 
 ##### Novelty
-```javascript
+```python
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
 five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
@@ -154,12 +154,12 @@ five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Fee
 ```
 
 ##### Rotation
-```javascript
+```python
 five.rot("five.js"); //"knaj.ox"
 ```
 
 ##### Unicode
-```javascript
+```python
 five.oclock(); // '🕔'
 
 five.guys(); // '🍔'

@@ -5,13 +5,13 @@ A Python port of [five.js](https:#github.com/jackdcrawford/five), a library to o
 ### Usage
 
 **Import the module**
-```Python
+```python
 from fyve import Fyve
 five = Fyve()
 ```
 
 **Basic 5**
-```Python
+```python
 five()  # returns 5
 ```
 
@@ -129,12 +129,12 @@ five.base(3) # 12
 
 ##### Assertion
 ```python
-five.isFive(10) # false
+five.isFive(10) # False
 ```
 
 ##### Filter, Map and Reduce
 ```python
-five.filter([5, true, 5]) # [5, 5]
+five.filter([5, True, 5]) # [5, 5]
 five.map([1, 2, 3]) # [5, 5, 5]
 five.reduce([1, 2, 3]) # 5
 ```
@@ -155,7 +155,7 @@ five.singles() #['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feeli
 
 ##### Rotation
 ```python
-five.rot("five.js") #"knaj.ox"
+five.rot("fyve.py") # 'kdajMud'
 ```
 
 ##### Unicode

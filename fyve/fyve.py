@@ -305,5 +305,3 @@ class Fyve(object):
 
     def guys(self):
         return '🍔'
-
-    def 

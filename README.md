@@ -158,6 +158,12 @@ five.singles() #['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feeli
 five.rot("fyve.py") # 'kdajMud'
 ```
 
+#### Iterator
+```python
+    f = five.forever()
+    f.__next__() # 5
+```
+
 ##### Unicode
 ```python
 five.oclock() # '🕔'

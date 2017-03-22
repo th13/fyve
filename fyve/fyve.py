@@ -284,6 +284,11 @@ class Fyve(object):
     def r(self):
         return '£5'
 
+    def forever(self):
+        """An infinite generator of 5's."""
+        while True:
+            yield 5
+
     def rot(self, word):
         if not isinstance(word, str):
             return word
